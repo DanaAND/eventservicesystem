@@ -1,10 +1,10 @@
 package com.sda.lukaapp.users.rest;
 
 
-import com.sda.lukaapp.users.UserService;
 import com.sda.lukaapp.users.rest.dto.CreateUserRequest;
 import com.sda.lukaapp.users.rest.dto.UpdateUserRequest;
 import com.sda.lukaapp.users.rest.dto.UserResponse;
+import com.sda.lukaapp.users.rest.dto.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
@@ -28,7 +28,7 @@ public class UserController {
     }
 
     // TODO: implement find all using GET /api/users
-    @GetMapping
+   @GetMapping
     public List<UserResponse> findAll() {
         return userService.findAll();
     }

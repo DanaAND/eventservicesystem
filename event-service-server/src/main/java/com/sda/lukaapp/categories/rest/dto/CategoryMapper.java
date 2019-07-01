@@ -51,7 +51,7 @@ public class CategoryMapper {
         return categoryResonse;
     }
 
-    public void map(CreateCategoryRequest request, Category category) {
+    public void map(UpdateCategoryRequest request, Category category) {
         if (request.getLifeEvent() != null) {
             category.setLifeEvent(request.getLifeEvent());
         }
