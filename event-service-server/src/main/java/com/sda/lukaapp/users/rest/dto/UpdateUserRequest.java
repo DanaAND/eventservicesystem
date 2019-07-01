@@ -1,7 +1,6 @@
 package com.sda.lukaapp.users.rest.dto;
 
 public class UpdateUserRequest {
-
     private String username;
     private String email;
     private String password;

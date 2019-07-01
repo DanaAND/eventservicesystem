@@ -1,7 +1,6 @@
 package com.sda.lukaapp.users.rest.dto;
 
 public class CreateUserRequest {
-
     private String username;
     private String email;
     private String password;
@@ -29,4 +28,5 @@ public class CreateUserRequest {
     public void setPassword(String password) {
         this.password = password;
     }
+
 }

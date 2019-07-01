@@ -1,10 +1,10 @@
 package com.sda.lukaapp.exception;
 
-public class NotFoundException extends BaseException {
+public class LocationNotFoundException extends BaseException {
 
     private ErrorCode errorCode;
 
-    public NotFoundException(ErrorCode errorCode, String message) {
+    public LocationNotFoundException(ErrorCode errorCode, String message) {
         super(message);
         this.errorCode = errorCode;
     }

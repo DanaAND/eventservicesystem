@@ -31,14 +31,10 @@ public class UserMapper {
     public List<UserResponse> toDtoOldWay(List<User> givenList) {
         // create new list for modified objects
         List<UserResponse> resultList = new ArrayList<>();
-
         // for each item in given list
         for (User user : givenList) {
-
             // transform to dto (by copying all fields)
-
             UserResponse userResponse = this.toDto(user);
-
             // add transformed item to the new list
             resultList.add(userResponse);
         }
