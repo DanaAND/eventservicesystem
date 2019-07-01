@@ -1,4 +1,4 @@
-package com.sda.lukaapp.categories.rest;
+package com.sda.lukaapp.categories;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.sda.lukaapp.categories.domain.Category;

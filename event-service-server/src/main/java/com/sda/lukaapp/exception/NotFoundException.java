@@ -16,6 +16,7 @@ public class NotFoundException extends BaseException {
 
     public enum ErrorCode {
         USER_NOT_FOUND("user_not_found"),
+        SERVICE_NOT_FOUND("service_not_found"),
         CATEGORY_NOT_FOUND("category_not_found"),
         MY_ENTITY_NOT_FOUND("my_entity_not_found");
 

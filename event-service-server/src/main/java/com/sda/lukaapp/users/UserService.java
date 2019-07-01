@@ -1,7 +1,6 @@
 package com.sda.lukaapp.users;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-
 import com.sda.lukaapp.exception.NotFoundException;
 import com.sda.lukaapp.users.domain.User;
 import com.sda.lukaapp.users.domain.UserRepository;
@@ -9,7 +8,6 @@ import com.sda.lukaapp.users.rest.dto.CreateUserRequest;
 import com.sda.lukaapp.users.rest.dto.UpdateUserRequest;
 import com.sda.lukaapp.users.rest.dto.UserMapper;
 import com.sda.lukaapp.users.rest.dto.UserResponse;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

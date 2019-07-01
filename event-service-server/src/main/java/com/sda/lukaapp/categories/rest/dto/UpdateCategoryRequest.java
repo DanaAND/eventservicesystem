@@ -3,8 +3,12 @@ package com.sda.lukaapp.categories.rest.dto;
 public class UpdateCategoryRequest {
 
     private long id;
-    private String socialEvent;
-    private String lifeEvent;
+
+    private boolean isSocialEvent;
+
+    private boolean isLifeEvent;
+
+    private String eventName;
 
     public long getId() {
         return id;
@@ -14,20 +18,28 @@ public class UpdateCategoryRequest {
         this.id = id;
     }
 
-    public String getSocialEvent() {
-        return socialEvent;
+    public boolean isSocialEvent() {
+        return isSocialEvent;
     }
 
-    public void setSocialEvent(String socialEvent) {
-        this.socialEvent = socialEvent;
+    public void setSocialEvent(boolean socialEvent) {
+        isSocialEvent = socialEvent;
     }
 
-    public String getLifeEvent() {
-        return lifeEvent;
+    public boolean isLifeEvent() {
+        return isLifeEvent;
     }
 
-    public void setLifeEvent(String lifeEvent) {
-        this.lifeEvent = lifeEvent;
+    public void setLifeEvent(boolean lifeEvent) {
+        isLifeEvent = lifeEvent;
+    }
+
+    public String getEventName() {
+        return eventName;
+    }
+
+    public void setEventName(String eventName) {
+        this.eventName = eventName;
     }
 }
 

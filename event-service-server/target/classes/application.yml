@@ -1,0 +1,28 @@
+server:
+  port: 8080
+
+spring:
+  # override the default data source configuration
+
+  ### mysql db configuration
+  datasource:
+    url: jdbc:mysql://localhost:3306/luka_project?autoReconnect=true&useSSL=false
+    username: root
+    password: Primavara@001
+    jpa:
+    show_sql: true
+    hibernate:
+    dialect: org.hibernate.dialect.MySQLDialect
+      #      ddl-auto: create
+    ddl-auto: update
+
+### h2 database configuration
+#  datasource:
+#    url: jdbc:h2:mem:devDb
+#    username: sa
+#    password:
+#    driver-class-name: org.h2.Driver
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      dialect: org.hibernate.dialect.H2Dialect

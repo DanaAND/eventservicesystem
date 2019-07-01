@@ -36,7 +36,7 @@ public class CategoryMapper {
 
             // transform to dto (by copying all fields)
 
-            CategoryResponse categoryResponse = this.toDto(category);
+            CategoryResponse categoryResponse= this.toDto(category);
 
             // add transformed item to the new list
             resultList.add(categoryResponse);
@@ -51,7 +51,7 @@ public class CategoryMapper {
         return categoryResonse;
     }
 
-    public void map(UpdateCategoryRequest request, Category category) {
+    public void map(CreateCategoryRequest request, Category category) {
         if (request.getLifeEvent() != null) {
             category.setLifeEvent(request.getLifeEvent());
         }
