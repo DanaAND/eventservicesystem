@@ -4,7 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import com.sda.lukaapp.exception.NotFoundException;
 import com.sda.lukaapp.location.domain.Location;
-import com.sda.lukaapp.location.domain.LocationRepository;
+import com.sda.lukaapp.repository.LocationRepository;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

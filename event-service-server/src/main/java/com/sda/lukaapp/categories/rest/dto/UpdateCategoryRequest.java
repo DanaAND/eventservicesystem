@@ -4,11 +4,9 @@ public class UpdateCategoryRequest {
 
     private long id;
 
-    private boolean isSocialEvent;
+    private String isSocialEvent;
 
-    private boolean isLifeEvent;
-
-    private String eventName;
+    private String isLifeEvent;
 
     public long getId() {
         return id;
@@ -18,28 +16,20 @@ public class UpdateCategoryRequest {
         this.id = id;
     }
 
-    public boolean isSocialEvent() {
+    public String getIsSocialEvent() {
         return isSocialEvent;
     }
 
-    public void setSocialEvent(boolean socialEvent) {
-        isSocialEvent = socialEvent;
+    public void setIsSocialEvent(String isSocialEvent) {
+        this.isSocialEvent = isSocialEvent;
     }
 
-    public boolean isLifeEvent() {
+    public String getIsLifeEvent() {
         return isLifeEvent;
     }
 
-    public void setLifeEvent(boolean lifeEvent) {
-        isLifeEvent = lifeEvent;
-    }
-
-    public String getEventName() {
-        return eventName;
-    }
-
-    public void setEventName(String eventName) {
-        this.eventName = eventName;
+    public void setIsLifeEvent(String isLifeEvent) {
+        this.isLifeEvent = isLifeEvent;
     }
 }
 

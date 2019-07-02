@@ -1,7 +1,7 @@
 package com.sda.lukaapp.events;
 
 import com.sda.lukaapp.events.domain.Event;
-import com.sda.lukaapp.events.domain.EventRepository;
+import com.sda.lukaapp.repository.EventRepository;
 import com.sda.lukaapp.events.rest.dto.CreateEventRequest;
 import com.sda.lukaapp.events.rest.dto.EventMapper;
 import com.sda.lukaapp.events.rest.dto.EventResponse;

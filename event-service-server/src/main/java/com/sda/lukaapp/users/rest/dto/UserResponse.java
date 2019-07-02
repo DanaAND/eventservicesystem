@@ -1,12 +1,8 @@
 package com.sda.lukaapp.users.rest.dto;
 
 public class UserResponse {
-<<<<<<< HEAD
 
     private long id;
-=======
-    private Long id;
->>>>>>> remotes/origin/george
     private String username;
     private String email;
 

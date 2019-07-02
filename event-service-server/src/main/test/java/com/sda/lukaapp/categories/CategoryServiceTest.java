@@ -2,7 +2,7 @@ package com.sda.lukaapp.categories;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.sda.lukaapp.categories.domain.Category;
-import com.sda.lukaapp.categories.domain.CategoryRepository;
+import com.sda.lukaapp.repository.CategoryRepository;
 import com.sda.lukaapp.categories.rest.dto.CategoryMapper;
 import com.sda.lukaapp.categories.rest.dto.CategoryResponse;
 import com.sda.lukaapp.categories.rest.dto.CreateCategoryRequest;

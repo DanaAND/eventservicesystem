@@ -2,8 +2,8 @@ package com.sda.lukaapp.events.rest.dto;
 
 import com.sda.lukaapp.categories.domain.Category;
 import com.sda.lukaapp.location.domain.Location;
+import com.sda.lukaapp.servicess.domain.Services;
 import com.sda.lukaapp.users.domain.User;
-import jdk.vm.ci.services.Services;
 
 import java.util.Date;
 

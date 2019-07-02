@@ -12,7 +12,7 @@ public class EventMapper {
         event.setDate(dto.getDate());
         event.setCategory(dto.getCategory());
         event.setLocation(dto.getLocation());
-        event.setService(dto.getServices());
+        event.setServices(dto.getServices());
         return event;
     }
 

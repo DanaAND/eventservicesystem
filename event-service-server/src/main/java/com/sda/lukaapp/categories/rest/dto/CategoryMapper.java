@@ -52,11 +52,11 @@ public class CategoryMapper {
     }
 
     public void map(UpdateCategoryRequest request, Category category) {
-        if (request.getLifeEvent() != null) {
-            category.setLifeEvent(request.getLifeEvent());
+        if (request.getIsLifeEvent() != null) {
+            category.setLifeEvent(request.getIsLifeEvent());
         }
-        if (request.getSocialEvent() != null) {
-            category.setSocialEvent(request.getSocialEvent());
+        if (request.getIsSocialEvent() != null) {
+            category.setSocialEvent(request.getIsSocialEvent());
         }
 
     }

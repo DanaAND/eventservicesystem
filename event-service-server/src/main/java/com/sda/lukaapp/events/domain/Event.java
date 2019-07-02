@@ -2,7 +2,7 @@ package com.sda.lukaapp.events.domain;
 
 import com.sda.lukaapp.categories.domain.Category;
 import com.sda.lukaapp.location.domain.Location;
-import com.sda.lukaapp.services.domain.Service;
+import com.sda.lukaapp.servicess.domain.Services;
 import com.sda.lukaapp.users.domain.User;
 
 import javax.persistence.*;
@@ -38,7 +38,7 @@ public class Event {
 
     @ManyToOne
     @JoinColumn(name = "Service_id")
-    private Service service;
+    private Services services;
 
     @ManyToOne
     @JoinColumn(name = "category_id")
@@ -84,12 +84,12 @@ public class Event {
         this.location = location;
     }
 
-    public Service getService() {
-        return service;
+    public Services getServices() {
+        return services;
     }
 
-    public void setService(Service service) {
-        this.service = service;
+    public void setServices(Services services) {
+        this.services = services;
     }
 
     public Category getCategory() {
